@@ -15,9 +15,9 @@ from re import split
 
 class transTool(object):
     def __init__(self):
-        #在百度上注册得到的账号
-        self.appId='20221011001385250'
-        self.appKey='J1qY4VXuCF9QOeumC_R4'
+        #在百度上注册得到的账号，请自行注册，每个账号有一定的免费试用字符数，足够大部分场景下的单人试用,并赋值给self.appId和self.appKey,否则软件无法使用
+        #示例：self.appId='202210110084965184'
+        #示例：self.appKey='J1qY4Vadwadasdawd_dawdasd'
         self.transType=-1   #定义翻译语种，-1是未定义；0是英译汉；1是汉译英
         #英译汉状态下，
         self.transLanguageList=[{"type":"英译汉","from_lang":"en","to_lang":"zh"},
